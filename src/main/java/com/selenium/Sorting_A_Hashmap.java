@@ -1,12 +1,9 @@
 package com.selenium;
 
-import java.io.StringBufferInputStream;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TreeMap;
-
-import net.bytebuddy.build.EntryPoint;
 
 public class Sorting_A_Hashmap {
 	
