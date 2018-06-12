@@ -24,7 +24,9 @@ public class Removing_Duplicates {
 			Character c = name.charAt(i);
 			
 			if(!set.contains(c)) {
+				
 				set.add(c);
+				
 				sb.append(c);
 			}
 		}

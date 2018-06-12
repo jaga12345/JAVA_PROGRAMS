@@ -5,8 +5,6 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import net.bytebuddy.build.EntryPoint;
-
 public class Duplicates_In_String {
 	
 	public static void main(String[] args) {
@@ -19,7 +17,7 @@ public class Duplicates_In_String {
  
 	public static void display_duplicates(String name) {
 		
-		Map<Character, Integer> map = new HashMap();
+		Map<Character, Integer> map = new HashMap<Character, Integer>();
 		 
 		char [] arr = name.toCharArray();
 		
