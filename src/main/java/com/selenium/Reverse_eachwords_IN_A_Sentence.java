@@ -31,8 +31,7 @@ public class Reverse_eachwords_IN_A_Sentence {
 		
 		String name = "MY NAME IS RAJA";
 		reverse_the_string(name);
-		
-		
+			
 	}
 
 }
